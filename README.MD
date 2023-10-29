@@ -25,3 +25,11 @@ Es gibt aktuell 2 Board Revisionen:
 - [Revision A](8BitZahlAnzeige_RevA/README.MD)
 
 - [Revision B](8BitZahlAnzeige_RevB/README.MD)
+
+Der Unterschied zu beiden Versionen ist, dass bei Revision B die 8x 7-Segment Anzeige und der MAX7219 Steuerchip die Positionen getauscht haben.
+
+## ToDo
+
+- Gehäuse entwerfen
+
+- Animation der 3-stelligen Anzeige, wenn der neunte Taster gedrückt ist.
