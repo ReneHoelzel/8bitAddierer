@@ -1,0 +1,237 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model U31BU1CGW
+#/15157394/1211918/2.50/24/2/Connector
+DEF U31BU1CGW J 0 30 Y Y 1 F N
+F0 "J" 850 300 50 H V L CNN
+F1 "U31BU1CGW" 850 200 50 H V L CNN
+F2 "U31BU1CGW" 850 100 50 H I L CNN
+F3 "https://app.salesforceiq.com/r?target=614dc2835fca485d60ab4536&t=AFwhZf3UwidBlPXmq-j6qCb2unS-s4gR_EAs1BchwGjxHlVk-atbAYArUNiJu8W5DJpRtLX3YzLMIGBfDOsb3RXgVKF9wCnWOmNwiR4LZLBFLCxst9ACoDlJTnsZluHeoSdzMqwapE2m&url=https%3A%2F%2Fwww.eve.de%2Fecon-connect-usb-3" 850 0 50 H I L CNN
+F4 "econ connect USB-3.1 C-Buchse abgewinkelt SMT/THT" 850 -100 50 H I L CNN "Description"
+F5 "" 850 -200 50 H I L CNN "Height"
+F6 "" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Econ Connect" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "U31BU1CGW" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A1 A1 0 0 200 R 50 50 0 0 P
+X A2 A2 0 -100 200 R 50 50 0 0 P
+X A3 A3 0 -200 200 R 50 50 0 0 P
+X A4 A4 0 -300 200 R 50 50 0 0 P
+X A5 A5 0 -400 200 R 50 50 0 0 P
+X A6 A6 0 -500 200 R 50 50 0 0 P
+X A7 A7 0 -600 200 R 50 50 0 0 P
+X A8 A8 0 -700 200 R 50 50 0 0 P
+X A9 A9 0 -800 200 R 50 50 0 0 P
+X A10 A10 0 -900 200 R 50 50 0 0 P
+X A11 A11 0 -1000 200 R 50 50 0 0 P
+X A12 A12 0 -1100 200 R 50 50 0 0 P
+X B1 B1 1000 0 200 L 50 50 0 0 P
+X B2 B2 1000 -100 200 L 50 50 0 0 P
+X B3 B3 1000 -200 200 L 50 50 0 0 P
+X B4 B4 1000 -300 200 L 50 50 0 0 P
+X B5 B5 1000 -400 200 L 50 50 0 0 P
+X B6 B6 1000 -500 200 L 50 50 0 0 P
+X B7 B7 1000 -600 200 L 50 50 0 0 P
+X B8 B8 1000 -700 200 L 50 50 0 0 P
+X B9 B9 1000 -800 200 L 50 50 0 0 P
+X B10 B10 1000 -900 200 L 50 50 0 0 P
+X B11 B11 1000 -1000 200 L 50 50 0 0 P
+X B12 B12 1000 -1100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -1200 200 -1200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model PTN04050CAD
+#/415762/1211918/2.50/4/4/Power Supply
+DEF PTN04050CAD PS 0 30 Y Y 1 F N
+F0 "PS" 1150 300 50 H V L CNN
+F1 "PTN04050CAD" 1150 200 50 H V L CNN
+F2 "PTN04050CAH" 1150 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/ptn04050c" 1150 0 50 H I L CNN
+F4 "Texas Instruments PTN04050CAD, DC-DC Power Supply Module 2.4A 5.5 V Input, 600 kHz, 4-Pin, DIP Module" 1150 -100 50 H I L CNN "Description"
+F5 "8.5" 1150 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "PTN04050CAD" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-PTN04050CAD" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/PTN04050CAD?qs=sSOk4GDDv7z3sgPhmEmGQg%3D%3D" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "PTN04050CAD" 1150 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ptn04050cad/texas-instruments?region=nac" 1150 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X GND 1 0 0 200 R 50 50 0 0 P
+X VI 2 0 -100 200 R 50 50 0 0 P
+X VO_ADJUST 3 1300 -100 200 L 50 50 0 0 P
+X VO 4 1300 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model RK73H1HTTC2702F
+#/4715816/1211918/2.50/2/3/Resistor
+DEF RK73H1HTTC2702F R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "RK73H1HTTC2702F" 550 150 50 H V L CNN
+F2 "RESC0603X26N" 550 50 50 H I L CNN
+F3 "https://www.arrow.com/en/products/rk73h1httc2702f/koa-speer-electronics" 550 -50 50 H I L CNN
+F4 "Res Thick Film 0201 27K Ohm 1% 0.05W(1/20W) +/-200ppm/C Pad SMD Automotive T/R" 550 -150 50 H I L CNN "Description"
+F5 "0.26" 550 -250 50 H I L CNN "Height"
+F6 "660-RK73H1HTTC2702F" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H1HTTC2702F?qs=08XeOTwj6p%252B8CHe%2FZRavIQ%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "KOA Speer" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "RK73H1HTTC2702F" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 110-87-610-41-001101
+#/491944/1211918/2.50/10/3/Connector
+DEF 110-87-610-41-001101 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "110-87-610-41-001101" 750 200 50 H V L CNN
+F2 "DIPS1524W50P254L1270H370Q10N" 750 100 50 H I L CNN
+F3 "http://www.precidip.com/AppHost/9698,1/Scripts/Modules/Catalog/Default.aspx?c=14&i=121&p=23&pdf=1&dsku=110-PP-XXX-41-001101" 750 0 50 H I L CNN
+F4 "Preci-Dip 2.54mm Pitch Vertical 10 Way, Through Hole Turned pin Open Frame IC Dip Socket, 1A" 750 -100 50 H I L CNN "Description"
+F5 "3.7" 750 -200 50 H I L CNN "Height"
+F6 "437-1108761041001101" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Preci-dip/110-87-610-41-001101?qs=FtMuP6KVi2RyUjsJ3d3Bhg%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Preci-Dip" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "110-87-610-41-001101" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 10 10 900 0 200 L 50 50 0 0 P
+X 9 9 900 -100 200 L 50 50 0 0 P
+X 8 8 900 -200 200 L 50 50 0 0 P
+X 7 7 900 -300 200 L 50 50 0 0 P
+X 6 6 900 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 110-87-628-41-001101
+#/273201/1211918/2.50/28/4/Connector
+DEF 110-87-628-41-001101 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "110-87-628-41-001101" 750 200 50 H V L CNN
+F2 "DIPS1524W50P254L3560H420Q28N" 750 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA16/879379.pdf" 750 0 50 H I L CNN
+F4 "28w DIL socket open frame solder Preci-Dip 2.54mm Pitch Vertical 28 Way, Through Hole Turned pin Open Frame IC Dip Socket, 1A" 750 -100 50 H I L CNN "Description"
+F5 "4.2" 750 -200 50 H I L CNN "Height"
+F6 "437-1108762841001101" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Preci-dip/110-87-628-41-001101?qs=uQD7XCvsSCP6AkcSNkxENw%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Preci-Dip" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "110-87-628-41-001101" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+X 7 7 0 -600 200 R 50 50 0 0 P
+X 8 8 0 -700 200 R 50 50 0 0 P
+X 9 9 0 -800 200 R 50 50 0 0 P
+X 10 10 0 -900 200 R 50 50 0 0 P
+X 11 11 0 -1000 200 R 50 50 0 0 P
+X 12 12 0 -1100 200 R 50 50 0 0 P
+X 13 13 0 -1200 200 R 50 50 0 0 P
+X 14 14 0 -1300 200 R 50 50 0 0 P
+X 28 28 900 0 200 L 50 50 0 0 P
+X 27 27 900 -100 200 L 50 50 0 0 P
+X 26 26 900 -200 200 L 50 50 0 0 P
+X 25 25 900 -300 200 L 50 50 0 0 P
+X 24 24 900 -400 200 L 50 50 0 0 P
+X 23 23 900 -500 200 L 50 50 0 0 P
+X 22 22 900 -600 200 L 50 50 0 0 P
+X 21 21 900 -700 200 L 50 50 0 0 P
+X 20 20 900 -800 200 L 50 50 0 0 P
+X 19 19 900 -900 200 L 50 50 0 0 P
+X 18 18 900 -1000 200 L 50 50 0 0 P
+X 17 17 900 -1100 200 L 50 50 0 0 P
+X 16 16 900 -1200 200 L 50 50 0 0 P
+X 15 15 900 -1300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -1400 200 -1400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model GRM32ER61C226KE20K
+#/1298392/1211918/2.50/2/5/Capacitor
+DEF GRM32ER61C226KE20K C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "GRM32ER61C226KE20K" 350 150 50 H V L CNN
+F2 "CAPC3225X270N" 350 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/GRM32ER61C226KE20K.pdf" 350 -50 50 H I L CNN
+F4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF 16Volts 10%" 350 -150 50 H I L CNN "Description"
+F5 "2.7" 350 -250 50 H I L CNN "Height"
+F6 "81-GRM32ER61C226KE0K" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM32ER61C226KE0K" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Murata Electronics" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "GRM32ER61C226KE20K" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model C4532X7R1C226M230KB
+#/525399/1211918/2.50/2/2/Capacitor
+DEF C4532X7R1C226M230KB C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "C4532X7R1C226M230KB" 350 150 50 H V L CNN
+F2 "C4532_Commercial" 350 50 50 H I L CNN
+F3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf" 350 -50 50 H I L CNN
+F4 "TDK 1812 C 22uF Ceramic Multilayer Capacitor, 16 V dc, +125C, X7R Dielectric, +/-20%" 350 -150 50 H I L CNN "Description"
+F5 "2.2" 350 -250 50 H I L CNN "Height"
+F6 "810-C4532X7R1C226M10" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TDK/C4532X7R1C226M230KB?qs=LcTL%2F5vFEzGnHgbQAdlvvg%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "TDK" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "C4532X7R1C226M230KB" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library

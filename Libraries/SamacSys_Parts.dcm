@@ -1,0 +1,51 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP U31BU1CGW
+D econ connect USB-3.1 C-Buchse abgewinkelt SMT/THT
+K
+F https://app.salesforceiq.com/r?target=614dc2835fca485d60ab4536&t=AFwhZf3UwidBlPXmq-j6qCb2unS-s4gR_EAs1BchwGjxHlVk-atbAYArUNiJu8W5DJpRtLX3YzLMIGBfDOsb3RXgVKF9wCnWOmNwiR4LZLBFLCxst9ACoDlJTnsZluHeoSdzMqwapE2m&url=https%3A%2F%2Fwww.eve.de%2Fecon-connect-usb-3
+$ENDCMP
+#
+$CMP PTN04050CAD
+D Texas Instruments PTN04050CAD, DC-DC Power Supply Module 2.4A 5.5 V Input, 600 kHz, 4-Pin, DIP Module
+K
+F http://www.ti.com/lit/gpn/ptn04050c
+$ENDCMP
+#
+$CMP RK73H1HTTC2702F
+D Res Thick Film 0201 27K Ohm 1% 0.05W(1/20W) +/-200ppm/C Pad SMD Automotive T/R
+K
+F https://www.arrow.com/en/products/rk73h1httc2702f/koa-speer-electronics
+$ENDCMP
+#
+$CMP 110-87-610-41-001101
+D Preci-Dip 2.54mm Pitch Vertical 10 Way, Through Hole Turned pin Open Frame IC Dip Socket, 1A
+K
+F http://www.precidip.com/AppHost/9698,1/Scripts/Modules/Catalog/Default.aspx?c=14&i=121&p=23&pdf=1&dsku=110-PP-XXX-41-001101
+$ENDCMP
+#
+$CMP 110-87-628-41-001101
+D 28w DIL socket open frame solder Preci-Dip 2.54mm Pitch Vertical 28 Way, Through Hole Turned pin Open Frame IC Dip Socket, 1A
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA16/879379.pdf
+$ENDCMP
+#
+$CMP GRM32ER61C226KE20K
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 22uF 16Volts 10%
+K
+F https://componentsearchengine.com/Datasheets/1/GRM32ER61C226KE20K.pdf
+$ENDCMP
+#
+$CMP C4532X7R1C226M230KB
+D TDK 1812 C 22uF Ceramic Multilayer Capacitor, 16 V dc, +125C, X7R Dielectric, +/-20%
+K
+F https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf
+$ENDCMP
+#
+#End Doc Library

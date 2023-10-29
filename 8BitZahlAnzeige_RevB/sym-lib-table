@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PushButton")(type "KiCad")(uri "${KIPRJMOD}/PushButton.kicad_sym")(options "")(descr ""))
+  (lib (name "Display_Character2")(type "KiCad")(uri "${KIPRJMOD}/Display_Character2.kicad_sym")(options "")(descr ""))
+)
